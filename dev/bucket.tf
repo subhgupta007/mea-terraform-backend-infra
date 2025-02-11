@@ -1,6 +1,6 @@
 # S3 Bucket for Terraform Backend
 resource "aws_s3_bucket" "MEA_terraform_backend_dev" {
-  bucket = "mea-terraform-backend-dev"
+  bucket = "mea-terraform-backend-development"
 
   lifecycle {
     prevent_destroy = true
